@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import './App.css'
-import 'dotenv/config';
 
 
-const socket = io('http://localhost:3000/api');
+const socket = io('http://localhost:4000/api');
 
 const App = () => {
   const [image, setImage] = useState('');
