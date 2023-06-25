@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './App.css'
 
 
-const socket = io('http://3.145.43.225:4000/api');
+const socket = io('https://3.145.43.225:4000/api');
 
 const App = () => {
   const [image, setImage] = useState('');
