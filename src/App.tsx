@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './App.css'
 
 
-const socket = io('https://react-node-socket-image.vercel.app/api');
+const socket = io('http://18.117.70.30:4000/api');
 
 const App = () => {
   const [image, setImage] = useState('');
